@@ -12,8 +12,6 @@ public interface LockersInterface {
     
     public boolean isEmpty();
     
-    public int size();
-    
     public Object frontElement();
     
     public void enqueue(Object element);

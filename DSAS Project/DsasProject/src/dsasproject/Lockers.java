@@ -20,15 +20,6 @@ public class Lockers implements LockersInterface{
     }
     
     @Override
-    public Object frontElement() {
-        if (lockers.size() > 0) {
-            return lockers.get(0);
-        } else {
-            return null;
-        }
-    }
-    
-    @Override
     public void enqueue(Object element) {
         lockers.add((Node) element);
     }

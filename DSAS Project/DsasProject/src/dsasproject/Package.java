@@ -84,24 +84,4 @@ public class Package implements PackageInterface{
         return null;
 
     }
-
-    public void setCurrent(int position) {
-        int i;
-        previousNode = null;
-        currentNode = head;
-        for (i = 1; i < position; i++) {
-            previousNode = currentNode;
-            currentNode = currentNode.getNext();
-        }
-    }
-
-    @Override
-    public void printStream() {
-        Node tempNode = head;
-        while (tempNode != null) {
-            System.out.println(tempNode.toString());
-            tempNode = tempNode.getNext();
-        }
-    }
-
 }

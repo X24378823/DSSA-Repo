@@ -18,11 +18,6 @@ public class Lockers implements LockersInterface{
     public boolean isEmpty() {
         return lockers.isEmpty();
     }
-
-    @Override
-    public int size() {
-        return lockers.size();
-    }
     
     @Override
     public Object frontElement() {

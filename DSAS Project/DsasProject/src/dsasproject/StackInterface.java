@@ -12,8 +12,8 @@ public interface StackInterface {
     
     
     public Object pop();
-    
-    public void emptyStack();
+
+    public void push();
     
    
     

@@ -10,14 +10,11 @@ package dsasproject;
  */
 public interface StackInterface {
     
-    public boolean isEmpty();
-    
-    public boolean isFull();
     
     public Object pop();
     
     public void emptyStack();
     
-    public String displayStack();
+   
     
 }

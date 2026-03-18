@@ -22,7 +22,6 @@ public interface PackageInterface {
     
     public int size();
     
-    public void printStream();
     
     
     
